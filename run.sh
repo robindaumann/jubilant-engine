@@ -1,5 +1,3 @@
 #!/usr/bin/env sh
 
-ghc --version
-
-ghc -o main main.hs && ./main
+ghc --version || echo "fail"
