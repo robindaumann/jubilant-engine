@@ -13,5 +13,6 @@ jobs:
         with:
           ghc-version: '8.6'
           enable-stack: true
+          stack-no-global: true
       - name: Run the file
         run: ./run.sh
