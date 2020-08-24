@@ -14,5 +14,6 @@ jobs:
           ghc-version: '8.6'
           enable-stack: true
           stack-no-global: true
+          stack-setup-ghc: true
       - name: Run the file
         run: ./run.sh
