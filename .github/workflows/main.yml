@@ -12,5 +12,6 @@ jobs:
         uses: actions/setup-haskell@v1.1
         with:
           ghc-version: '8.6'
+          enable-stack: true
       - name: Run the file
         run: ./run.sh
